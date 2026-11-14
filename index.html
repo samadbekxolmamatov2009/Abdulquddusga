@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdulquddus | Portfolio</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #6b6b6b;
+    --accent: #2563eb;
+    --border: #e5e5e5;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  header {
+    padding: 80px 0 40px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  header p {
+    color: var(--muted);
+    font-size: 1.1rem;
+  }
+
+  nav {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  nav a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+
+  nav a:hover { text-decoration: underline; }
+
+  section {
+    padding: 48px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  section:last-of-type { border-bottom: none; }
+
+  section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+  }
+
+  section p {
+    color: var(--text);
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+  }
+
+  .skills span {
+    background: #f3f4f6;
+    color: var(--text);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+
+  .project {
+    margin-bottom: 24px;
+  }
+
+  .project h3 {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+  }
+
+  .project p {
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  footer {
+    padding: 32px 0 60px;
+    color: var(--muted);
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  footer a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Abdulquddus</h1>
+      <p>Web dasturchi</p>
+      <nav>
+        <a href="#about">Men haqimda</a>
+        <a href="#skills">Ko'nikmalar</a>
+        <a href="#projects">Loyihalar</a>
+        <a href="#contact">Aloqa</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>Men haqimda</h2>
+      <p>Salom! Men veb-sahifalar va ilovalar yaratish bilan shug'ullanaman. Toza va sodda kod yozishni, yangi narsalarni o'rganishni yoqtiraman.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Ko'nikmalar</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Git</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Loyihalar</h2>
+      <div class="project">
+        <h3>Portfolio sayt</h3>
+        <p>Shaxsiy ma'lumotlarni taqdim etuvchi sodda sayt.</p>
+      </div>
+      <div class="project">
+        <h3>Loyiha nomi</h3>
+        <p>Qisqa tavsif shu yerga yoziladi.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Aloqa</h2>
+      <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+      <p>GitHub: <a href="https://github.com/samadbekxolmamatov2009" target="_blank">samadbekxolmamatov2009</a></p>
+    </section>
+
+    <footer>
+      &copy; 2026 Abdulquddus. Barcha huquqlar himoyalangan.
+    </footer>
+  </div>
+</body>
+</html>
